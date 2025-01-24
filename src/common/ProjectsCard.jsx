@@ -7,7 +7,7 @@ const ProjectsCard = ({src, link,h3, p, codeLink}) => {
       <img className='hover' src={src} alt={`${h3} logo`} />
             <h3>{h3}</h3>
             <p>{p}</p>
-            <p className={styles.githubL} ><a href={codeLink}>GitHub</a></p>
+            <p className={styles.githubL} ><a href={codeLink}>Code</a></p>
     </a>
       
   )
