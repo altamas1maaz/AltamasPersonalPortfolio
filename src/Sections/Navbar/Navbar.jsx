@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./navbar.module.css"; // Import the CSS Module
+import styles from "./Navbar.module.css"; // Import the CSS Module
 import { Link } from "react-scroll";
 
 const Navbar = () => {
